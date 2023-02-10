@@ -25,11 +25,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  /* margin: 0px 150px; */
   column-gap: 100px;
   background-color: #1b262f;
   width: 1440px;
-  height: 300px;
+  height: 350px;
 }
 
 .tesla,
@@ -61,5 +60,10 @@ h2 {
   justify-content: center;
 
   background-color: #1b262f;
-  border-color: white;
+  outline-style: auto;
+  outline-width: 0.5px;
+  font-family: "Public Sans";
+
+  width: 40px;
+  height: 40px;
 }
