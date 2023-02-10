@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.page-two-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+  padding-right: 150px;
+}
+
+.page-two-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-left: 150px;
+  gap: 30px;
+}
+
+.page-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* margin: 0px 150px; */
+  column-gap: 100px;
+  background-color: #1b262f;
+  width: 1440px;
+  height: 300px;
+}
+
+.tesla,
+.microsoft,
+.hewlet,
+.oracle,
+.google,
+.nvidia {
+  image-rendering: aliceblue;
+  filter: sepia(white);
+}
+
+h2 {
+  color: white;
+  font-family: "Judson";
+  font-size: 48px;
+}
+
+.section2 {
+  color: white;
+  font-family: "Public Sans";
+
+  padding: 0%;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1b262f;
+  border-color: white;
+}
