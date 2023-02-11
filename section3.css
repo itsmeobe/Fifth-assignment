@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.page-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 90px;
+  padding-top: 80px;
+}
+
+.page-three-left {
+  display: flex;
+  align-items: center;
+
+  padding-left: 100px;
+}
+
+.page-three-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-right: 150px;
+}
+
+.section3 {
+  font-family: "Public Sans";
+  font-size: 15px;
+
+  padding: 0px;
+}
+h3 {
+  color: #36536b;
+  font-family: "Judson";
+  font-size: 48px;
+}
+
+.page-three-b {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.page-three-b-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 150px;
+}
+
+.page-three-b-right {
+  display: flex;
+  align-items: center;
+
+  padding-right: 150px;
+}
+
+.circle2 {
+  position: absolute;
+  left: 1200px;
+  bottom: 5px;
+}
