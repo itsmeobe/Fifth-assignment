@@ -29,6 +29,7 @@
   font-size: 15px;
 
   padding: 0px;
+  line-height: 2rem;
 }
 h3 {
   color: #36536b;
@@ -59,5 +60,5 @@ h3 {
 .circle2 {
   position: absolute;
   left: 1200px;
-  bottom: 5px;
+  /* bottom: 5px; */
 }
