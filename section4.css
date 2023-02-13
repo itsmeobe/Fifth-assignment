@@ -34,3 +34,28 @@ h4 {
   padding-right: 150px;
   column-gap: 40px;
 }
+
+.ready {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 60px 150px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 150px;
+  padding-right: 150px;
+
+  background-color: #1b262f;
+  min-height: 60px;
+}
+
+.medsos {
+  display: flex;
+  gap: 20px;
+}
